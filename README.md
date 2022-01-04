@@ -1,2 +1,2 @@
 # Proyecto-Web
-Proyecto Web para curso de Frontend Developer y practica
+Proyecto Web para curso de Frontend Developer 
