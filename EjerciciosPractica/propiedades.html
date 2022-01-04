@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propiedades</title>
+    <style>
+        body{
+            background: #282828;
+        }
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card{
+            width: 300px;
+            height: 450px;
+            background: rgb(16,16,16);
+            background: linear-gradient(0deg, rgba(16,16,16,1) 50%, rgba(30,30,30,1) 100%);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .card-top{
+            width: 300px;
+            height: 150px;
+            content: url(https://images.pexels.com/photos/4317158/pexels-photo-4317158.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+            z-index: 6;
+            overflow: hidden;
+        }
+
+        .card-foto{
+            width: 120px;
+            height: 120px;
+            background: black;
+            border-radius: 90px;
+            margin:  -50px;
+            border: 3px solid white;
+            content: url(https://images.8tracks.com/cover/i/010/266/937/740347-9956.jpg?rect=0,0,3368,3368&q=98&fm=jpg&fit=max&w=960&h=960);
+            
+        }
+
+        .information{
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .information h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .information p:nth-child(2){
+            margin-top: -10px;
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .information p:nth-child(3){
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .information span{
+            content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/1280px-Flag_of_Guatemala.svg.png);
+            width: 6%;
+            height: 7%;
+            margin-top: -3px;
+            margin-right: 3px;
+            align-self: center;
+        }
+
+        .card-end{
+            margin-top: 70px;
+            height: 40px;
+            background: #77f924;
+        }
+        .card-end h4{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="card-top"></div>
+            <section>
+                <div class="card-foto"></div>
+            </section>
+            <div class="information">
+                <h1>Brandon Pineda</h1>
+                <p>Frontend Developer</p>
+                <p><span>s</span>Guatemala</p>
+            </div>
+            <div class="card-end">
+                <h4>Enviar Email</h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
