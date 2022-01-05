@@ -95,6 +95,12 @@ input{
     height: 50px;
 }
 
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 22px 0;
+}
+
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
