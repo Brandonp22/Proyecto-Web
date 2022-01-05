@@ -245,6 +245,7 @@ a{
     height: 35px;
 }
 
+
 /* Desktop Menu*/
 .desktop-menu{
     width: 100px;
@@ -286,8 +287,8 @@ a{
     display: inline-block;
 }
 
-/* Mobile Menu */ 
 
+/* Mobile Menu */ 
 .title-menuMobile{
     font-weight: bold;
     font-size: var(--lg);
@@ -300,7 +301,6 @@ a{
 .mobile-menu a{
     color: var(--black);
     font-weight: bold;
-    /*margin-bottom: 24px;*/
 }
 
 .mobile-menu ul{
@@ -342,3 +342,86 @@ a{
     font-size: var(--sm);
 }
 
+
+/* My Order */
+.my-order{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.title-myOrder{
+    font-size: var(--lg);
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.my-order-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-order-content{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.order{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: var(--text-input-field);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding-left: 24px;
+}
+
+.order p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.order p span:nth-child(1){
+    font-size: var(--md);
+}
+
+.order p span:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.order p:nth-child(2){
+    text-align: end;
+    font-weight: bold;
+}
+
+
+.shopping-cart{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+}
+
+.shopping-cart figure{
+    margin: 0;
+}
+
+.shopping-cart figure img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.shopping-cart p:nth-child(2){
+    color: var(--very-light-pink);
+}
+
+.shopping-cart p:nth-child(3){
+    font-size: var(--md);
+    font-weight: bold;
+}
