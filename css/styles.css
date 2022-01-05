@@ -373,6 +373,7 @@ a{
     display: grid;
     grid-template-columns: auto 1fr auto;
     background-color: var(--text-input-field);
+    align-items: center;
     margin-bottom: 24px;
     border-radius: 8px;
     padding-left: 24px;
@@ -423,5 +424,60 @@ a{
 
 .shopping-cart p:nth-child(3){
     font-size: var(--md);
+    font-weight: bold;
+}
+
+/* My orders */
+.my-orders{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.title-myOrders{
+    font-size: var(--lg);
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.my-orders-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-orders-content{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.orders{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 16px; /*quitar*/
+    align-items: center;
+    margin-bottom: 12px;
+ 
+}
+
+.orders p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.orders p span:nth-child(1){
+    font-size: var(--md);
+}
+
+.orders p span:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+
+.orders p:nth-child(2){
+    text-align: end;
     font-weight: bold;
 }
